@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/namku/CLionProjects/Sinhvien/main.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+string.h
+-
+

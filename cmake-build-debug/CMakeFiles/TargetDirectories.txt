@@ -1,0 +1,3 @@
+C:/Users/namku/CLionProjects/Sinhvien/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/namku/CLionProjects/Sinhvien/cmake-build-debug/CMakeFiles/Sinhvien.dir
+C:/Users/namku/CLionProjects/Sinhvien/cmake-build-debug/CMakeFiles/edit_cache.dir
