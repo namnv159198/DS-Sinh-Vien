@@ -24,7 +24,7 @@ void nhap (Sinhvien sv[],int n){
         printf("Nhap thong tin sinh vien thu %d \n",i+1);
         do{
             printf("Nhap ma sinh vien : ");
-            fgets(sv[i].msv,6,stdin);
+            scanf("%s",sv[i].msv);
             if( strlen(sv[i].msv) !=5 ){
                 printf("Ma sinh vien khong du 5 ky tu.Hay nhap lai!\n");
             }
@@ -89,13 +89,6 @@ void docfile(const char *p,Sinhvien sv[],int n){
 
 int main(){
     int n,choice;
-    do{
-        printf("Nhap so luong sinh vien : ");
-        scanf("%d",&n);
-        if(n<=0 || n > 10){
-            printf("So luong sinh vien khong the nho hon 0 hoac lon hon 10.\n");
-        }
-    } while(n > 10);
     fflush(stdin);
     while(1==1){
         menu();
@@ -104,6 +97,13 @@ int main(){
         fflush(stdin);
         switch(choice){
             case 1:
+                do{
+                    printf("Nhap so luong sinh vien : ");
+                    scanf("%d",&n);
+                    if(n<=0 || n > 10){
+                        printf("So luong sinh vien trong danh sach khong the nho hon 0 hoac bang 0 hoac lon hon 10.\n");
+                    }
+                } while(n >10 || n<=0);
                 nhap(sv,n);
                 break;
             case 2:

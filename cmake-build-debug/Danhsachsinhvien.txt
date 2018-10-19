@@ -1,4 +1,3 @@
 --------------------Danh sach sinh vien--------------------
 - Ma sinh vien        |  Ten                  |  So dien thoat       
-- A1234               |  NAM                  |  222                 
-- A4121               |  LINH                 |  1212                
+- 12234               |  nam                  |  091231              
